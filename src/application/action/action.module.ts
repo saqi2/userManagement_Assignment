@@ -6,10 +6,8 @@ import { ActionController } from './action.controller';
 import { ActionService } from './action.service';
 
 @Module({
-  imports: [ SequelizeModule.forFeature([ Action ]) ],
-  controllers: [ ActionController ],
-  providers: [ ActionService, ActionRepository ],
+  imports: [SequelizeModule.forFeature([Action])],
+  controllers: [ActionController],
+  providers: [ActionService, ActionRepository],
 })
-export class ActionModule {
-
-}
+export class ActionModule {}
