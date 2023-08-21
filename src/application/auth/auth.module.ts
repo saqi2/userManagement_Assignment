@@ -19,8 +19,8 @@ import { JWTModule } from 'src/infrastructure/jwt/jwt.module';
   imports: [
     SequelizeModule.forFeature([ User ]),
     PassportModule,
-    CacheModule,
     JWTModule,
+    CacheModule,   
   ],
   controllers: [ AuthController ],
   providers: [
