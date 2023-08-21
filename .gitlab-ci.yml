@@ -1,0 +1,28 @@
+stages:
+  - build
+
+cache:
+  paths:
+    - node_modules/
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+before_script:
+  - docker login -u $nexus_user -p $nexus_pass 192.168.10.193:8090
+
+docker-build:
+  stage: build
+  script:
+    - cd /home/projects/ahan/backend-user-management
+    - git reset --hard
+    - git checkout develop
+    - git fetch --prune
+    - git pull --all
+    - git submodule update --init --recursive
+    - docker build -t ahan-backend-user-management:latest .
+  tags:
+    - ahan-dev
+  only:
+    refs:
+      - develop

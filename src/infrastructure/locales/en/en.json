@@ -1,0 +1,65 @@
+{
+	"Menu": {
+		"validation": {
+			"showPriority": {
+				"not_unique": "Menu.validation.showPriority.not_unique"
+			}
+		}
+	},
+	"generic": {
+		"not_found": "generic.not_found",
+		"unauthorized": "generic.unauthorized"
+	},
+	"undefined": {
+		"title": {
+			"shorter": {
+				"equal": {
+					"characters": "undefined.title.shorter.equal.characters"
+				}
+			},
+			"string": "undefined.title.string"
+		}
+	},
+	"role": {
+		"title": {
+			"shorter": {
+				"equal": {
+					"characters": "role.title.shorter.equal.characters"
+				}
+			},
+			"string": "role.title.string"
+		}
+	},
+	"user": {
+		"fullName": {
+			"shorter": {
+				"equal": {
+					"characters": "user.fullName.shorter.equal.characters"
+				}
+			},
+			"string": "user.fullName.string"
+		}
+	},
+	"userKYC": {
+		"documentPath": {
+			"address": "userKYC.documentPath.address"
+		}
+	},
+	"User": {
+		"validation": {
+			"fullName": {
+				"is_null": "User.validation.fullName.is_null"
+			},
+			"email": {
+				"not_unique": "User.validation.email.not_unique"
+			}
+		}
+	},
+	"UserKYC": {
+		"validation": {
+			"createdBy": {
+				"is_null": "UserKYC.validation.createdBy.is_null"
+			}
+		}
+	}
+}

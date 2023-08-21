@@ -1,0 +1,24 @@
+[submodule "src/infrastructure/logger"]
+	path = src/infrastructure/logger
+	url = git@gitlab.agah.local:ahan/submodules/submodule-infrastructure-logger.git
+[submodule "src/shared/interfaces/base_interface"]
+	path = src/shared/interfaces/base_interface
+	url = git@gitlab.agah.local:ahan/submodules/submodule-shared-interfaces.git
+[submodule "src/shared/pipes"]
+	path = src/shared/pipes
+	url = git@gitlab.agah.local:ahan/submodules/submodule-shared-pipes.git
+[submodule "src/infrastructure/locales/base_locale"]
+	path = src/infrastructure/locales/base_locale
+	url = git@gitlab.agah.local:ahan/submodules/submodule-infrastructure-locale.git
+[submodule "src/infrastructure/database/base_db"]
+	path = src/infrastructure/database/base_db
+	url = git@gitlab.agah.local:ahan/submodules/submodule-infrastructure-db.git
+[submodule "src/shared/exception-handlers"]
+	path = src/shared/exception-handlers
+	url = git@gitlab.agah.local:ahan/submodules/submodule-shared-exceptions.git
+[submodule "src/shared/middlewares"]
+	path = src/shared/middlewares
+	url = git@gitlab.agah.local:ahan/submodules/submodule-shared-middlewares.git
+[submodule "src/infrastructure/cache"]
+	path = src/infrastructure/cache
+	url = git@gitlab.agah.local:ahan/submodules/submodule-infrastructure-cache.git
